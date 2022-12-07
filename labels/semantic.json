@@ -1,0 +1,16 @@
+{
+  "packageRules": [
+    {
+      "matchUpdateTypes": ["patch"],
+      "addLabels": ["patch"]
+    },
+    {
+      "matchUpdateTypes": ["minor"],
+      "addLabels": ["minor"]
+    },
+    {
+      "matchUpdateTypes": ["major"],
+      "addLabels": ["major"]
+    }
+  ]
+}

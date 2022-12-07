@@ -1,0 +1,16 @@
+{
+  "packageRules": [
+    {
+      "matchDatasources": ["helm"],
+      "addLabels": ["helm"]
+    },
+    {
+      "matchDatasources": ["docker"],
+      "addLabels": ["container"]
+    },
+    {
+      "matchDatasources": ["flux"],
+      "addLabels": ["flux"]
+    }
+  ]
+}

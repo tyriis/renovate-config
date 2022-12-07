@@ -1,0 +1,9 @@
+{
+  "extends": [
+    ":label(dependencies)",
+    "github>tyriis/renovate-config/labels:semantic",
+    "github>tyriis/renovate-config/labels:dependencies",
+    "github>tyriis/renovate-config/labels:managers",
+    "github>tyriis/renovate-config/labels:datasources"
+  ]
+}

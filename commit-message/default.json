@@ -1,0 +1,6 @@
+{
+  "extends": [
+    "github>tyriis/renovate-config/commit-message:semantic-commits",
+    "github>tyriis/renovate-config/commit-message:commit-message"
+  ]
+}

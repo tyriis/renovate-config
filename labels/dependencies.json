@@ -1,0 +1,16 @@
+{
+  "packageRules": [
+    {
+      "matchDepTypes": ["optionalDependencies"],
+      "addLabels": ["optional"]
+    },
+    {
+      "matchDepTypes": ["peerDependencies"],
+      "addLabels": ["peer"]
+    },
+    {
+      "matchDepTypes": ["devDependencies"],
+      "addLabels": ["dev"]
+    }
+  ]
+}
