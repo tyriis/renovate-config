@@ -1,4 +1,5 @@
 {
+  "description": "add lables based on update type",
   "packageRules": [
     {
       "matchUpdateTypes": ["patch"],

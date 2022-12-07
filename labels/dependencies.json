@@ -1,4 +1,5 @@
 {
+  "description": "add lables based on dependency type",
   "packageRules": [
     {
       "matchDepTypes": ["optionalDependencies"],

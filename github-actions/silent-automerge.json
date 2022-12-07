@@ -1,4 +1,5 @@
 {
+  "description": "automerge github-actions without a pr",
   "packageRules": [
     {
       "matchManagers": ["github-actions"],

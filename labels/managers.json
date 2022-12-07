@@ -1,4 +1,5 @@
 {
+  "description": "add lables based on manager",
   "packageRules": [
     {
       "matchManagers": ["pre-commit"],

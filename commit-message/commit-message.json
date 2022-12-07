@@ -1,4 +1,5 @@
 {
+  "description": "format the commit message",
   "commitMessageTopic": "{{depName}}",
   "commitMessageExtra": "to {{newVersion}}",
   "commitMessageSuffix": ""

@@ -1,4 +1,5 @@
 {
+  "description": "configure semantic commits",
   "extends": [":semanticCommits"],
   "packageRules": [
     {
