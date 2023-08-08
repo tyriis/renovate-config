@@ -1,6 +1,6 @@
 {
   $schema: "https://docs.renovatebot.com/renovate-schema.json",
-  description: "add label to pre-commit",
+  description: "add label for pre-commit",
   packageRules: [
     {
       matchManagers: ["pre-commit"],
