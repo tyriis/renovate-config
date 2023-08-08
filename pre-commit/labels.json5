@@ -3,10 +3,8 @@
   description: "automerge pre-commit non major versions",
   packageRules: [
     {
-      automerge: true,
       matchManagers: ["pre-commit"],
-      matchUpdateTypes: ["minor", "patch", "digest"],
-      ignoreTests: true,
+      addLabels: ["pre-commit"],
     },
   ],
 }
