@@ -4,6 +4,8 @@
   extends: ["github>tyriis/renovate-config//github-actions/automerge.json"],
   packageRules: [
     {
+      matchManagers: ["github-actions"],
+      matchUpdateTypes: ["minor", "patch", "digest"],
       automergeType: "branch",
       requiredStatusChecks: null,
     },
