@@ -1,0 +1,13 @@
+// https://github.com/grafana/loki/issues/9523
+{
+  $schema: "https://docs.renovatebot.com/renovate-schema.json",
+  description: "require dashboard approval for loki helmrelease pr",
+  extends: ["github>tyriis/renovate-config//flux/prevent-automerge-loki.json5"],
+  packageRules: [
+    {
+      matchManagers: ["flux"],
+      matchPackageNames: ["loki"],
+      dependencyDashboardApproval: true,
+    },
+  ],
+}
