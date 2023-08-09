@@ -3,10 +3,11 @@
   description: "automerge terraform non major versions",
   packageRules: [
     {
-      automerge: true,
       matchManagers: ["terraform"],
+      automerge: true,
       matchUpdateTypes: ["minor", "patch", "digest"],
       // ignoreTests: true,
+      automergeType: "pr",
     },
   ],
 }

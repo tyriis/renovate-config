@@ -3,10 +3,11 @@
   description: "automerge pre-commit non major versions",
   packageRules: [
     {
-      automerge: true,
       matchManagers: ["pre-commit"],
+      automerge: true,
       matchUpdateTypes: ["minor", "patch", "digest"],
       ignoreTests: true,
+      automergeType: "pr",
     },
   ],
 }
