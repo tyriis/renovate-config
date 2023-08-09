@@ -1,0 +1,11 @@
+{
+  $schema: "https://docs.renovatebot.com/renovate-schema.json",
+  description: "automerge github-actions without a pr",
+  extends: ["github>tyriis/renovate-config//github-actions/automerge.json"],
+  packageRules: [
+    {
+      automergeType: "branch",
+      requiredStatusChecks: null,
+    },
+  ],
+}

@@ -4,7 +4,7 @@
   packageRules: [
     {
       matchManagers: ["pre-commit"],
-      addLabels: ["pre-commit"],
+      addLabels: ["renovate/pre-commit"],
     },
   ],
 }

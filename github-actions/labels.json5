@@ -1,0 +1,10 @@
+{
+  $schema: "https://docs.renovatebot.com/renovate-schema.json",
+  description: "add label for github-actions",
+  packageRules: [
+    {
+      matchManagers: ["github-actions"],
+      addLabels: ["renovate/github-actions"],
+    },
+  ],
+}
