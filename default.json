@@ -2,16 +2,15 @@
   "extends": [
     "config:base",
     ":enableRenovate",
-    ":enablePreCommit",
-    ":dependencyDashboard",
     ":disableRateLimiting",
     "docker:enableMajor",
+    "github>tyriis/renovate-config//dashboard/default.json5",
+    "github>tyriis/renovate-config//pre-commit/default.json5",
     "github>tyriis/renovate-config//commit-message/default.json",
     "github>tyriis/renovate-config//labels/default.json",
     "github>tyriis/renovate-config//github-actions/silent-automerge.json"
   ],
   "timezone": "Europe/Vienna",
-  "dependencyDashboardTitle": ":robot: Renovate Dashboard",
   "stopUpdatingLabel": "stop-updating",
   "suppressNotifications": ["prIgnoreNotification"],
   "commitBodyTable": true,
