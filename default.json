@@ -5,6 +5,7 @@
     ":disableRateLimiting",
     "docker:enableMajor",
     "github>tyriis/renovate-config//dashboard/default.json5",
+    "github>tyriis/renovate-config//flux/default.json5",
     "github>tyriis/renovate-config//github-actions/default.json5",
     "github>tyriis/renovate-config//pre-commit/default.json5",
     "github>tyriis/renovate-config//terraform/default.json5",

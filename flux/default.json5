@@ -1,0 +1,4 @@
+{
+  $schema: "https://docs.renovatebot.com/renovate-schema.json",
+  extends: ["github>tyriis/renovate-config//flux/labels.json5", "github>tyriis/renovate-config//flux/automerge.json5"],
+}
