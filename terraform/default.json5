@@ -1,0 +1,8 @@
+{
+  $schema: "https://docs.renovatebot.com/renovate-schema.json",
+  extends: [
+    "github>tyriis/renovate-config//terraform/labels.json5",
+    "github>tyriis/renovate-config//terraform/automerge.json5",
+    "github>tyriis/renovate-config//terraform/range-strategy-widen.json5",
+  ],
+}
