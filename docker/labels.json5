@@ -1,0 +1,10 @@
+{
+  $schema: "https://docs.renovatebot.com/renovate-schema.json",
+  description: "add label for docker datasource",
+  packageRules: [
+    {
+      matchDatasources: ["docker"],
+      addLabels: ["renovate/docker"],
+    },
+  ],
+}
