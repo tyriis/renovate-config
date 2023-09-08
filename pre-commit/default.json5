@@ -7,8 +7,4 @@
     "github>tyriis/renovate-config//pre-commit/labels.json5",
     "github>tyriis/renovate-config//pre-commit/automerge.json5",
   ],
-  rules: {
-    matchManagers: ["pre-commit"],
-    enabled: true,
-  },
 }
