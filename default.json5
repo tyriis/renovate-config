@@ -18,11 +18,4 @@
   suppressNotifications: ["prIgnoreNotification"],
   commitBodyTable: true,
   rebaseWhen: "conflicted",
-  packageRules: [
-    // https://github.com/renovatebot/renovate/discussions/16196
-    {
-      matchManagers: ["*"],
-      enabled: false,
-    },
-  ],
 }
