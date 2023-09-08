@@ -10,7 +10,7 @@
     "github>tyriis/renovate-config//pre-commit/default.json5",
     "github>tyriis/renovate-config//terraform/default.json5",
     "github>tyriis/renovate-config//commit-message/default.json",
-    "github>tyriis/renovate-config//labels/default.json",
+    "github>tyriis/renovate-config//labels/default5.json",
   ],
   timezone: "Europe/Vienna",
   stopUpdatingLabel: "stop-updating",
