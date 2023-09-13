@@ -1,4 +1,8 @@
 {
   $schema: "https://docs.renovatebot.com/renovate-schema.json",
-  extends: ["github>tyriis/renovate-config//helm/labels.json5", "github>tyriis/renovate-config//helm/automerge.json5"],
+  extends: [
+    "github>tyriis/renovate-config//helm/labels.json5",
+    "github>tyriis/renovate-config//helm/automerge.json5",
+    "github>tyriis/renovate-config//helm/semantic-commit.json5",
+  ],
 }

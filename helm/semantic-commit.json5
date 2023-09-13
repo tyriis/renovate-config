@@ -1,0 +1,31 @@
+{
+  $schema: "https://docs.renovatebot.com/renovate-schema.json",
+  description: "commit message for flux helm release updates",
+  packageRules: [
+    {
+      matchManagers: ["flux"],
+      matchDatasources: ["helm"],
+      matchUpdateTypes: ["major", "minor", "patch"],
+      semanticCommitScope: "{{packageName}}",
+      commitMessageTopic: "helm-release",
+    },
+    {
+      matchManagers: ["flux"],
+      matchDatasources: ["helm"],
+      matchUpdateTypes: ["major"],
+      semanticCommitType: "feat",
+    },
+    {
+      matchManagers: ["flux"],
+      matchDatasources: ["helm"],
+      matchUpdateTypes: ["minor"],
+      semanticCommitType: "feat",
+    },
+    {
+      matchManagers: ["flux"],
+      matchDatasources: ["helm"],
+      matchUpdateTypes: ["patch"],
+      semanticCommitType: "fix",
+    },
+  ],
+}
