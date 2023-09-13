@@ -3,5 +3,6 @@
   extends: [
     "github>tyriis/renovate-config//github-actions/labels.json5",
     "github>tyriis/renovate-config//github-actions/automerge.json5",
+    "github>tyriis/renovate-config//github-actions/semantic-commit.json5",
   ],
 }

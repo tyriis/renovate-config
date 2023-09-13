@@ -26,11 +26,6 @@
     {
       "matchDatasources": ["terraform-provider"],
       "semanticCommitScope": "terraform"
-    },
-    {
-      "matchManagers": ["github-actions"],
-      "semanticCommitType": "ci",
-      "semanticCommitScope": "github-action"
     }
   ]
 }
