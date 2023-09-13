@@ -4,8 +4,10 @@
   packageRules: [
     {
       matchManagers: ["github-actions"],
+      matchUpdateTypes: ["major", "minor", "patch", "digest"],
       semanticCommitType: "ci",
       semanticCommitScope: "github-action",
+      commitMessageTopic: "{{packageName}}",
     },
   ],
 }
