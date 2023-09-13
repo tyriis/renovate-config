@@ -1,0 +1,13 @@
+{
+  $schema: "https://docs.renovatebot.com/renovate-schema.json",
+  description: "commit message for pre-commit updates",
+  packageRules: [
+    {
+      matchManagers: ["pre-commit"],
+      matchUpdateTypes: ["major", "minor", "patch", "digest"],
+      semanticCommitType: "chore",
+      semanticCommitScope: "pre-commit",
+      commitMessageTopic: "{{packageName}}",
+    },
+  ],
+}

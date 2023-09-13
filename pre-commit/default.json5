@@ -6,5 +6,6 @@
   extends: [
     "github>tyriis/renovate-config//pre-commit/labels.json5",
     "github>tyriis/renovate-config//pre-commit/automerge.json5",
+    "github>tyriis/renovate-config//pre-commit/semantic-commits.json5",
   ],
 }
