@@ -1,0 +1,15 @@
+{
+  $schema: "https://docs.renovatebot.com/renovate-schema.json",
+  description: "automerge docker/setup-qemu-action from v2 to v3",
+  packageRules: [
+    {
+      matchManagers: ["github-actions"],
+      matchPackageNames: ["docker/setup-qemu-action"],
+      automerge: true,
+      matchUpdateTypes: ["major"],
+      automergeType: "pr",
+      matchCurrentVersion: "/^v2/",
+      allowedVersions: "<=3.0",
+    },
+  ],
+}
