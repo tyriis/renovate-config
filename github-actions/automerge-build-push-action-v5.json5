@@ -1,0 +1,13 @@
+{
+  $schema: "https://docs.renovatebot.com/renovate-schema.json",
+  description: "automerge docker/build-push-action to v5",
+  packageRules: [
+    {
+      matchManagers: ["github-actions"],
+      matchPackageNames: ["docker/build-push-action"],
+      automerge: true,
+      matchUpdateTypes: ["major"],
+      automergeType: "pr",
+    },
+  ],
+}
