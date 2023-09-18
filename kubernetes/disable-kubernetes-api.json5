@@ -1,0 +1,11 @@
+{
+  $schema: "https://docs.renovatebot.com/renovate-schema.json",
+  description: "disable kubernetes-api datasource",
+  packageRules: [
+    {
+      matchManagers: ["kubernetes"],
+      matchDatasources: ["kubernetes-api"],
+      enabled: false,
+    },
+  ],
+}
