@@ -1,0 +1,7 @@
+{
+  $schema: "https://docs.renovatebot.com/renovate-schema.json",
+  extends: [
+    "github>tyriis/renovate-config//github-actions/automerge-build-push-action-v5.json5",
+    "github>tyriis/renovate-config//github-actions/automerge-setup-qemu-action-v3.json5",
+  ],
+}
