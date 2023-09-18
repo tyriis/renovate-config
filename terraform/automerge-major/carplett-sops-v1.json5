@@ -1,0 +1,15 @@
+{
+  $schema: "https://docs.renovatebot.com/renovate-schema.json",
+  description: "automerge carlpett/sops from v0 to v1",
+  packageRules: [
+    {
+      matchManagers: ["terraform"],
+      matchPackageNames: ["carlpett/sops"],
+      automerge: true,
+      matchUpdateTypes: ["major"],
+      automergeType: "pr",
+      matchCurrentVersion: "/^0/",
+      allowedVersions: "<=1.0",
+    },
+  ],
+}
