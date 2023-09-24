@@ -7,7 +7,7 @@
       matchDatasources: ["helm"],
       matchUpdateTypes: ["major", "minor", "patch"],
       semanticCommitScope: "{{packageName}}",
-      commitMessageTopic: "flux helm-release",
+      commitMessageTopic: "helm-release",
     },
     {
       matchManagers: ["flux"],
