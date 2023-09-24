@@ -4,7 +4,7 @@
   packageRules: [
     {
       matchDatasources: ["docker"],
-      semanticCommitScope: "{{packageName}}",
+      semanticCommitScope: "{{parentDir}}",
       commitMessageTopic: "container tag {{depName}}",
       commitMessageExtra: "to {{#if isSingleVersion}}v{{{newVersion}}}{{else}}{{{newValue}}}{{/if}}",
       matchUpdateTypes: ["major", "minor", "patch"],
