@@ -1,0 +1,8 @@
+{
+  $schema: "https://docs.renovatebot.com/renovate-schema.json",
+  description: "match helm-?release.ya?ml files under ./kubernetes",
+  "helm-values": {
+    // flux pattern
+    fileMatch: ["kubernetes/.+/helm-?release\\.ya?ml$"],
+  },
+}
