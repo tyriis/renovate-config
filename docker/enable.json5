@@ -1,0 +1,10 @@
+{
+  $schema: "https://docs.renovatebot.com/renovate-schema.json",
+  description: "enable docker datasource",
+  packageRules: [
+    {
+      matchDatasources: ["docker"],
+      enabled: true,
+    },
+  ],
+}
