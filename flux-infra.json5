@@ -2,7 +2,6 @@
   $schema: "https://docs.renovatebot.com/renovate-schema.json",
   description: "Flux Infra preset is suited for monorepos with pre-commit, github-actions, terraform and flux.",
   extends: [
-    "github>tyriis/renovate-config//kubernetes/disable-kubernetes-api.json5",
     "github>tyriis/renovate-config//docker/default.json5",
     "github>tyriis/renovate-config//flux/default.json5",
     "github>tyriis/renovate-config//flux/file-match.json5",
@@ -10,6 +9,8 @@
     "github>tyriis/renovate-config//helm/default.json5",
     "github>tyriis/renovate-config//helm/file-match.json5",
     "github>tyriis/renovate-config//helm/separate-versions.json5",
+    "github>tyriis/renovate-config//kubernetes/disable-kubernetes-api.json5",
+    "github>tyriis/renovate-config//helm/kubernetes/file-match.json5",
     "github>tyriis/renovate-config//pre-commit/default.json5",
     "github>tyriis/renovate-config//github-actions/default.json5",
     "github>tyriis/renovate-config//github-actions/automerge-selected-major.json5",
