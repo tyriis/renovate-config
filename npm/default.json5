@@ -15,5 +15,7 @@
     "packages:linters",
     // https://docs.renovatebot.com/presets-packages/#packageseslint
     "packages:eslint",
+    // https://github.com/whitesource/merge-confidence
+    "github>whitesource/merge-confidence:beta",
   ],
 }
