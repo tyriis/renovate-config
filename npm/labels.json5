@@ -1,0 +1,10 @@
+{
+  $schema: "https://docs.renovatebot.com/renovate-schema.json",
+  description: "add label for npm",
+  packageRules: [
+    {
+      matchDatasources: ["npm"],
+      addLabels: ["renovate/npm"],
+    },
+  ],
+}

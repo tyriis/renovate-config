@@ -1,0 +1,11 @@
+{
+  $schema: "https://docs.renovatebot.com/renovate-schema.json",
+  description: "Separate npm patch, minor and different major releases into separate PRs.",
+  packageRules: [
+    {
+      matchDatasources: ["npm"],
+      separateMinorPatch: true,
+      separateMultipleMajor: true,
+    },
+  ],
+}
