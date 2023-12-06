@@ -1,0 +1,7 @@
+{
+  $schema: "https://docs.renovatebot.com/renovate-schema.json",
+  extends: [
+    "github>tyriis/renovate-config//kubernetes/disable-kubernetes.json5",
+    "github>tyriis/renovate-config//kubernetes/labels.json5",
+  ],
+}

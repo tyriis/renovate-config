@@ -1,0 +1,10 @@
+{
+  $schema: "https://docs.renovatebot.com/renovate-schema.json",
+  description: "add label for kubernetes",
+  packageRules: [
+    {
+      matchManagers: ["kubernetes"],
+      addLabels: ["renovate/kubernetes"],
+    },
+  ],
+}
