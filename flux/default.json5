@@ -5,6 +5,5 @@
     "github>tyriis/renovate-config//flux/automerge.json5",
     "github>tyriis/renovate-config//flux/semantic-commit.json5",
     "github>tyriis/renovate-config//flux/separate-versions.json5",
-    "github>tyriis/renovate-config//flux/disable-flux-container.json5",
   ],
 }
