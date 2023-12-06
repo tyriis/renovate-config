@@ -16,7 +16,6 @@
     "github>tyriis/renovate-config//terraform/default.json5",
     "github>tyriis/renovate-config//terraform/automerge-selected-major.json5",
     // this needs to be afterwards will be overwritten otherwise
-    "github>tyriis/renovate-config//docker/prevent-flux-container.json5",
     "github>tyriis/renovate-config//flux/prevent-automerge-loki.json5",
   ],
 }
