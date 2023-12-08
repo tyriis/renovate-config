@@ -3,5 +3,6 @@
   description: "match .ya?ml files under ./kubernetes",
   kubernetes: {
     fileMatch: ["^kubernetes/.+\\.ya?ml$"],
+    ignorePaths: ["**/gotk-components.yaml"],
   },
 }
