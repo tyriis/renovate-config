@@ -1,0 +1,11 @@
+{
+  $schema: "https://docs.renovatebot.com/renovate-schema.json",
+  description: "Terraform Infra preset is suited for monorepos with pre-commit, github-actions, terraform.",
+  extends: [
+    "github>tyriis/renovate-config//pre-commit/default.json5",
+    "github>tyriis/renovate-config//github-actions/default.json5",
+    "github>tyriis/renovate-config//github-actions/automerge-selected-major.json5",
+    "github>tyriis/renovate-config//terraform/default.json5",
+    "github>tyriis/renovate-config//terraform/automerge-selected-major.json5",
+  ],
+}
