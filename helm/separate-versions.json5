@@ -5,6 +5,7 @@
     {
       matchDatasources: ["helm"],
       separateMinorPatch: true,
+      separateMajorMinor: true,
       separateMultipleMajor: true,
     },
   ],
