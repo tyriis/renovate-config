@@ -1,4 +1,5 @@
 // https://github.com/grafana/loki/issues/9523
+// solved by increasing timeout. this rule is no longer needed
 {
   $schema: "https://docs.renovatebot.com/renovate-schema.json",
   description: "prevent automerge loki helmrelease",

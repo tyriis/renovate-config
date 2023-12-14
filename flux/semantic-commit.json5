@@ -4,36 +4,38 @@
   packageRules: [
     {
       matchManagers: ["flux"],
-      matchDatasources: ["helm"],
+      matchDatasources: ["helm", "docker", "github-tags"],
       matchUpdateTypes: ["major", "minor", "patch"],
       semanticCommitScope: "{{packageName}}",
       commitMessageTopic: "helm-release",
     },
     {
       matchManagers: ["flux"],
-      matchDatasources: ["helm"],
+      matchDatasources: ["helm", "docker", "github-tags"],
       matchUpdateTypes: ["major"],
       semanticCommitType: "feat",
     },
     {
       matchManagers: ["flux"],
-      matchDatasources: ["helm"],
+      matchDatasources: ["helm", "docker", "github-tags"],
       matchUpdateTypes: ["minor"],
       semanticCommitType: "feat",
     },
     {
       matchManagers: ["flux"],
-      matchDatasources: ["helm"],
+      matchDatasources: ["helm", "docker", "github-tags"],
       matchUpdateTypes: ["patch"],
       semanticCommitType: "fix",
     },
     {
       description: "Flux Group",
       groupName: "Flux",
+      matchManagers: ["flux"],
       matchPackagePatterns: ["fluxcd"],
       matchDatasources: ["docker", "github-tags"],
       versioning: "semver",
       group: {
+        semanticCommitScope: "flux-manifests",
         commitMessageTopic: "{{{groupName}}} group",
       },
       separateMinorPatch: true,
