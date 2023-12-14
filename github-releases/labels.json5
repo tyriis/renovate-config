@@ -1,0 +1,10 @@
+{
+  $schema: "https://docs.renovatebot.com/renovate-schema.json",
+  packageRules: [
+    {
+      description: "add label for github-releases",
+      matchDatasources: ["github-releases"],
+      addLabels: ["renovate/github-release"],
+    },
+  ],
+}
