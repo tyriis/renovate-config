@@ -1,0 +1,11 @@
+{
+  $schema: "https://docs.renovatebot.com/renovate-schema.json",
+  packageRules: [
+    {
+      description: "prevent automerge flux2 resources",
+      matchManagers: ["flux"],
+      matchPackageNames: ["fluxcd/flux2"],
+      automerge: false,
+    },
+  ],
+}
