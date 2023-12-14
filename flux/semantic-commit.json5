@@ -34,8 +34,8 @@
       matchPackagePatterns: ["fluxcd"],
       matchDatasources: ["docker", "github-tags", "github-releases"],
       versioning: "semver",
+      semanticCommitScope: "flux-manifests",
       group: {
-        semanticCommitScope: "flux-manifests",
         commitMessageTopic: "{{{groupName}}} group",
       },
       separateMinorPatch: true,
