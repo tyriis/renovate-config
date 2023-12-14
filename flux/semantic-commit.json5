@@ -31,7 +31,7 @@
       description: "Flux Group",
       groupName: "Flux",
       matchManagers: ["flux"],
-      matchPackagePatterns: ["fluxcd"],
+      matchPackageNames: ["fluxcd/flux2"],
       matchDatasources: ["docker", "github-tags", "github-releases"],
       versioning: "semver",
       semanticCommitScope: "flux-manifests",
