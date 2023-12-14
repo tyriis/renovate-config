@@ -4,26 +4,26 @@
   packageRules: [
     {
       matchManagers: ["flux"],
-      matchDatasources: ["helm", "docker", "github-tags"],
+      matchDatasources: ["helm", "docker", "github-tags", "github-releases"],
       matchUpdateTypes: ["major", "minor", "patch"],
       semanticCommitScope: "{{packageName}}",
       commitMessageTopic: "helm-release",
     },
     {
       matchManagers: ["flux"],
-      matchDatasources: ["helm", "docker", "github-tags"],
+      matchDatasources: ["helm", "docker", "github-tags", "github-releases"],
       matchUpdateTypes: ["major"],
       semanticCommitType: "feat",
     },
     {
       matchManagers: ["flux"],
-      matchDatasources: ["helm", "docker", "github-tags"],
+      matchDatasources: ["helm", "docker", "github-tags", "github-releases"],
       matchUpdateTypes: ["minor"],
       semanticCommitType: "feat",
     },
     {
       matchManagers: ["flux"],
-      matchDatasources: ["helm", "docker", "github-tags"],
+      matchDatasources: ["helm", "docker", "github-tags", "github-releases"],
       matchUpdateTypes: ["patch"],
       semanticCommitType: "fix",
     },
@@ -32,7 +32,7 @@
       groupName: "Flux",
       matchManagers: ["flux"],
       matchPackagePatterns: ["fluxcd"],
-      matchDatasources: ["docker", "github-tags"],
+      matchDatasources: ["docker", "github-tags", "github-releases"],
       versioning: "semver",
       group: {
         semanticCommitScope: "flux-manifests",
