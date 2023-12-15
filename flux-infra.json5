@@ -17,5 +17,6 @@
     "github>tyriis/renovate-config//github-tags/default.json5",
     "github>tyriis/renovate-config//terraform/default.json5",
     "github>tyriis/renovate-config//terraform/automerge-selected-major.json5",
+    "github>tyriis/renovate-config//flux/groups/flux.json5",
   ],
 }
