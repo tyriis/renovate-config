@@ -4,14 +4,15 @@
     {
       description: "Flux2 Group",
       groupName: "flux2",
-      matchManagers: ["flux"],
+      matchManagers: ["flux", "kustomize"],
       matchPackageNames: ["fluxcd/flux2", "ghcr.io/fluxcd/flux-manifests"],
       matchDatasources: ["docker", "github-tags", "github-releases"],
       versioning: "semver",
-      semanticCommitScope: "flux2",
+      semanticCommitScope: "flux-group",
       group: {
         // this seem not to work as expected see: https://github.com/tyriis/home-ops/pull/2252
-        commitMessageTopic: "{{{groupName}}} group",
+        commitMessageTopic: "{{{groupName}}}",
+        commitMessageSuffix: "",
       },
       separateMinorPatch: true,
     },
