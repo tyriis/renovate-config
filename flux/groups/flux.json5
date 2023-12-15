@@ -10,7 +10,6 @@
       versioning: "semver",
       semanticCommitScope: "flux-group",
       group: {
-        // this seem not to work as expected see: https://github.com/tyriis/home-ops/pull/2252
         commitMessageTopic: "{{{groupName}}}",
         commitMessageSuffix: "",
       },
