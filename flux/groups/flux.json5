@@ -9,9 +9,9 @@
       matchDatasources: ["docker", "github-tags", "github-releases"],
       versioning: "semver",
       semanticCommitScope: "flux-group",
+      commitMessageSuffix: null,
       group: {
         commitMessageTopic: "{{{groupName}}}",
-        commitMessageSuffix: "",
       },
       separateMinorPatch: true,
       separateMajorMinor: true,
