@@ -7,5 +7,6 @@
     "github>tyriis/renovate-config//github-actions/automerge-major/docker-setup-buildx-action-v3.json5",
     "github>tyriis/renovate-config//github-actions/automerge-major/docker-setup-qemu-action-v3.json5",
     "github>tyriis/renovate-config//github-actions/automerge-major/peter-evans-find-comment-v3.json5",
+    "github>tyriis/renovate-config//github-actions/automerge-major/peter-evans-create-or-update-comment-v4.json5",
   ],
 }
