@@ -1,0 +1,15 @@
+{
+  $schema: "https://docs.renovatebot.com/renovate-schema.json",
+  description: "automerge tj-actions/changed-files to v42",
+  packageRules: [
+    {
+      matchManagers: ["github-actions"],
+      matchPackageNames: ["tj-actions/changed-files"],
+      automerge: true,
+      matchUpdateTypes: ["major"],
+      automergeType: "pr",
+      matchCurrentVersion: "/^v41/",
+      allowedVersions: "<=42.0",
+    },
+  ],
+}

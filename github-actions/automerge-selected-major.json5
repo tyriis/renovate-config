@@ -1,12 +1,14 @@
 {
   $schema: "https://docs.renovatebot.com/renovate-schema.json",
   extends: [
+    "github>tyriis/renovate-config//github-actions/automerge-major/actions-dependency-review-action-v4.json5",
     "github>tyriis/renovate-config//github-actions/automerge-major/docker-build-push-action-v5.json5",
     "github>tyriis/renovate-config//github-actions/automerge-major/docker-login-action-v3.json5",
     "github>tyriis/renovate-config//github-actions/automerge-major/docker-metadata-action-v5.json5",
     "github>tyriis/renovate-config//github-actions/automerge-major/docker-setup-buildx-action-v3.json5",
     "github>tyriis/renovate-config//github-actions/automerge-major/docker-setup-qemu-action-v3.json5",
-    "github>tyriis/renovate-config//github-actions/automerge-major/peter-evans-find-comment-v3.json5",
     "github>tyriis/renovate-config//github-actions/automerge-major/peter-evans-create-or-update-comment-v4.json5",
+    "github>tyriis/renovate-config//github-actions/automerge-major/peter-evans-find-comment-v3.json5",
+    "github>tyriis/renovate-config//github-actions/automerge-major/tj-actions-changed-files-v42.json5",
   ],
 }
