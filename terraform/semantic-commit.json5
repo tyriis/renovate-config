@@ -1,0 +1,29 @@
+{
+  $schema: "https://docs.renovatebot.com/renovate-schema.json",
+  description: "commit message for terraform and provider updates",
+  packageRules: [
+    {
+      matchDatasources: ["terraform"],
+      semanticCommitScope: "terraform",
+      commitMessageTopic: "{{depName}}",
+      commitMessageExtra: "to {{#if isSingleVersion}}v{{{newVersion}}}{{else}}{{{newValue}}}{{/if}}",
+      matchUpdateTypes: ["major", "minor", "patch"],
+    },
+    {
+      matchDatasources: ["terraform"],
+      matchUpdateTypes: ["major"],
+      semanticCommitType: "feat",
+      commitMessagePrefix: "{{semanticCommitType}}({{semanticCommitScope}})!:",
+    },
+    {
+      matchDatasources: ["terraform"],
+      matchUpdateTypes: ["minor"],
+      semanticCommitType: "feat",
+    },
+    {
+      matchDatasources: ["terraform"],
+      matchUpdateTypes: ["patch"],
+      semanticCommitType: "fix",
+    },
+  ],
+}

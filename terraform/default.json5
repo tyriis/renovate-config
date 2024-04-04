@@ -4,5 +4,6 @@
     "github>tyriis/renovate-config//terraform/labels.json5",
     "github>tyriis/renovate-config//terraform/automerge.json5",
     "github>tyriis/renovate-config//terraform/range-strategy-widen.json5",
+    "github>tyriis/renovate-config//terraform/semantic-commit.json5",
   ],
 }
