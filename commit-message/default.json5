@@ -1,3 +1,4 @@
 {
+  $schema: "https://docs.renovatebot.com/renovate-schema.json",
   extends: ["github>tyriis/renovate-config//commit-message/semantic-commits.json5"],
 }
