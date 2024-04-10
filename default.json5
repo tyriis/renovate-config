@@ -7,6 +7,7 @@
     "workarounds:all",
     "replacements:all",
     "docker:enableMajor",
+    "github>tyriis/renovate-config//commit-message/default.json5",
     "github>tyriis/renovate-config//dashboard/default.json5",
     "github>tyriis/renovate-config//commit-message/default.json",
     "github>tyriis/renovate-config//labels/default.json5",

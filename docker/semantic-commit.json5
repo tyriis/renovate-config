@@ -4,25 +4,8 @@
   packageRules: [
     {
       matchDatasources: ["docker"],
-      semanticCommitScope: "{{parentDir}}",
-      commitMessageTopic: "container tag {{depName}}",
-      commitMessageExtra: "to {{#if isSingleVersion}}v{{{newVersion}}}{{else}}{{{newValue}}}{{/if}}",
-      matchUpdateTypes: ["major", "minor", "patch"],
-    },
-    {
-      matchDatasources: ["docker"],
-      matchUpdateTypes: ["major"],
-      semanticCommitType: "feat",
-    },
-    {
-      matchDatasources: ["docker"],
-      matchUpdateTypes: ["minor"],
-      semanticCommitType: "feat",
-    },
-    {
-      matchDatasources: ["docker"],
-      matchUpdateTypes: ["patch"],
-      semanticCommitType: "fix",
+      semanticCommitScope: "container",
+      commitMessageTopic: "image {{depName}}",
     },
   ],
 }

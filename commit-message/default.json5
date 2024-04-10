@@ -1,0 +1,3 @@
+{
+  extends: ["github>tyriis/renovate-config//commit-message/semantic-commits.json5"],
+}
