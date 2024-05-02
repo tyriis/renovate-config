@@ -4,7 +4,7 @@
   packageRules: [
     {
       matchManagers: ["github-actions"],
-      matchPackageNames: ["docker/metadata-action"],
+      matchDepNames: ["docker/metadata-action"],
       automerge: true,
       matchUpdateTypes: ["major"],
       automergeType: "pr",

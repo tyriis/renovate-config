@@ -3,7 +3,7 @@
   packageRules: [
     {
       description: "Prevent upgrade from fluxcd container images",
-      matchPackageNames: [
+      matchDepNames: [
         "ghcr.io/fluxcd/notification-controller",
         "ghcr.io/fluxcd/kustomize-controller",
         "ghcr.io/fluxcd/source-controller",

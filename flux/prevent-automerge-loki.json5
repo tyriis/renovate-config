@@ -6,7 +6,7 @@
   packageRules: [
     {
       matchManagers: ["flux"],
-      matchPackageNames: ["loki"],
+      matchDepNames: ["loki"],
       automerge: false,
     },
   ],

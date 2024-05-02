@@ -4,7 +4,7 @@
   packageRules: [
     {
       matchManagers: ["github-actions"],
-      matchPackageNames: ["action/dependency-review-action"],
+      matchDepNames: ["action/dependency-review-action"],
       automerge: true,
       matchUpdateTypes: ["major"],
       automergeType: "pr",

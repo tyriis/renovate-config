@@ -4,7 +4,7 @@
   packageRules: [
     {
       matchManagers: ["github-actions"],
-      matchPackageNames: ["docker/setup-qemu-action"],
+      matchDepNames: ["docker/setup-qemu-action"],
       automerge: true,
       matchUpdateTypes: ["major"],
       automergeType: "pr",

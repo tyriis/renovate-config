@@ -4,7 +4,7 @@
   packageRules: [
     {
       matchManagers: ["github-actions"],
-      matchPackageNames: ["docker/build-push-action"],
+      matchDepNames: ["docker/build-push-action"],
       automerge: true,
       matchUpdateTypes: ["major"],
       automergeType: "pr",

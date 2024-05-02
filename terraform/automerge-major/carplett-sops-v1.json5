@@ -4,7 +4,7 @@
   packageRules: [
     {
       matchManagers: ["terraform"],
-      matchPackageNames: ["carlpett/sops"],
+      matchDepNames: ["carlpett/sops"],
       automerge: true,
       matchUpdateTypes: ["major"],
       automergeType: "pr",

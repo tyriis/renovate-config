@@ -4,7 +4,7 @@
     {
       description: "prevent automerge flux2 resources",
       matchManagers: ["flux"],
-      matchPackageNames: ["fluxcd/flux2"],
+      matchDepNames: ["fluxcd/flux2"],
       automerge: false,
     },
   ],

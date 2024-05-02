@@ -4,7 +4,7 @@
   packageRules: [
     {
       matchManagers: ["github-actions"],
-      matchPackageNames: ["peter-evans/create-or-update-comment"],
+      matchDepNames: ["peter-evans/create-or-update-comment"],
       automerge: true,
       matchUpdateTypes: ["major"],
       automergeType: "pr",

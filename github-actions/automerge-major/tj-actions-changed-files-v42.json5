@@ -4,7 +4,7 @@
   packageRules: [
     {
       matchManagers: ["github-actions"],
-      matchPackageNames: ["tj-actions/changed-files"],
+      matchDepNames: ["tj-actions/changed-files"],
       automerge: true,
       matchUpdateTypes: ["major"],
       automergeType: "pr",

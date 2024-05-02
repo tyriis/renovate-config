@@ -7,7 +7,7 @@
   packageRules: [
     {
       matchManagers: ["flux"],
-      matchPackageNames: ["loki"],
+      matchDepNames: ["loki"],
       dependencyDashboardApproval: true,
     },
   ],
