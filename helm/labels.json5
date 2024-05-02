@@ -6,5 +6,9 @@
       matchDatasources: ["helm"],
       addLabels: ["renovate/helm"],
     },
+    {
+      matchManagers: ["helm-values"],
+      addLabels: ["renovate/helm-values"],
+    },
   ],
 }
