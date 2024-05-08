@@ -1,0 +1,10 @@
+{
+  $schema: "https://docs.renovatebot.com/renovate-schema.json",
+  description: "add label for nix",
+  packageRules: [
+    {
+      matchManagers: ["nix"],
+      addLabels: ["renovate/nix"],
+    },
+  ],
+}
