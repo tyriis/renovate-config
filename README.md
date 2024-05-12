@@ -20,6 +20,18 @@ Central renovate configuration presets
 
 Thanks to [bjw-s](https://github.com/bjw-s/renovate-config/commits?author=bjw-s), used his repo as a starting point
 
+## (experimental) build
+
+I have created a simple node zx script to merge all json5 files of a given preset into 1 file.
+The idea of this script is to later provide single file entrypoints (mostly for debugging purpose)
+It require your system to have nodejs and npm installed.
+
+Other dependencies get intalled in runtime.
+
+```console
+npx --yes zx --install scripts/build.mjs --preset flux-infra.json5
+```
+
 <!-- MARKDOWN LINKS & IMAGES -->
 <!-- https://www.markdownguide.org/basic-syntax/#reference-style-links -->
 

@@ -32,8 +32,12 @@ let parse = (entryPoint) => {
   return result
 }
 
-let entryPoint = "flux-infra.json5"
+if (!argv.preset) {
+  console.log("No preset provided")
+  process.exit(1)
+}
 
-let result = parse(entryPoint)
-
+// echo(chalk.blue(`> render preset: ${argv.preset}`))
+let result = parse(argv.preset)
+result.description = `Generated from ${argv.preset}`
 echo`${json5.stringify(result, null, 2)}`
