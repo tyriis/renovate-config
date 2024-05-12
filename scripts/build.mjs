@@ -1,5 +1,4 @@
 import "zx/globals"
-import fs from "fs"
 import json5 from "json5"
 import merge from "deepmerge"
 /* global $ echo */
