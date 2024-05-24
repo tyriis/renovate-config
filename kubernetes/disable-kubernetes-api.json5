@@ -4,7 +4,7 @@
   packageRules: [
     {
       matchManagers: ["kubernetes"],
-      // matchDatasources: ["kubernetes-api", "docker"],
+      matchDatasources: ["docker"],
       enabled: false,
     },
   ],
