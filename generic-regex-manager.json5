@@ -30,5 +30,14 @@
       versioningTemplate: "{{#if versioning}}{{{versioning}}}{{else}}semver{{/if}}",
       extractVersionTemplate: "{{#if extractVersion}}{{{extractVersion}}}{{else}}^(?<version>.*)${{/if}}",
     },
+    // source: https://github.com/onedr0p/home-ops/blob/main/.github/renovate/customManagers.json5
+    {
+      customType: "regex",
+      description: "Process CloudnativePG PostgreSQL version",
+      fileMatch: ["(^|/)kubernetes/.+\\.ya?ml(?:\\.j2)?$"],
+      matchStrings: ["imageName: (?<depName>\\S+):(?<currentValue>.*\\-.*)"],
+      datasourceTemplate: "docker",
+      versioningTemplate: "redhat",
+    },
   ],
 }
