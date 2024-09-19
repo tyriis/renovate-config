@@ -1,0 +1,4 @@
+{
+  $schema: "https://docs.renovatebot.com/renovate-schema.json",
+  extends: ["github>tyriis/renovate-config//mise/labels.json5"],
+}
