@@ -1,6 +1,6 @@
 [tools]
 # https://gitleaks.io/
-gitleaks = "8.23.3"
+gitleaks = "8.24.0"
 # https://pre-commit.com/
 pre-commit = "4.1.0"
 # https://taskfile.dev/
