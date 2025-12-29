@@ -2,6 +2,6 @@
 # https://gitleaks.io/
 gitleaks = "8.28.0"
 # https://pre-commit.com/
-pre-commit = "4.3.0"
+pre-commit = "4.5.1"
 # https://taskfile.dev/
 task = "3.38.0"
