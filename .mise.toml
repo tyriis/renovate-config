@@ -4,4 +4,4 @@ gitleaks = "8.30.1"
 # https://pre-commit.com/
 pre-commit = "4.5.1"
 # https://taskfile.dev/
-task = "3.38.0"
+task = "3.50.0"
